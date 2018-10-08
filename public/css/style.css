@@ -1,0 +1,224 @@
+@font-face {
+  font-family: "Tex Gyre Adventor";
+  src: url("./tex-gyre-adventor/texgyreadventor-regular.otf");
+}
+
+@font-face {
+  font-family: "Tex Gyre Adventor Bold";
+  src: url("./tex-gyre-adventor/texgyreadventor-bold.otf");
+}
+
+@font-face {
+  font-family: "Tex Gyre Adventor Italic";
+  src: url("./tex-gyre-adventor/texgyreadventor-italic.otf");
+}
+
+body {
+  padding: 60px 20px 20px 20px;
+  background-color: black;
+  font-family: "Tex Gyre Adventor";
+  letter-spacing: 0.5px;
+  width: 100%;
+  background-image: url(https://s3.amazonaws.com/black-dog-travel/sparks_lake/Sparks+Lake-03455.jpg?versionId=null);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+input {
+  letter-spacing: 0.5px;
+  font-size: 16px !important;
+  margin-top: 20px;
+}
+
+.dropdown-item span {
+  font-size: 16px !important;
+}
+
+input:focus {
+  outline: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+em {
+  font-family: "Tex Gyre Adventor Italic";
+}
+
+strong,
+.menu-heading {
+  font-family: "Tex Gyre Adventor Bold";
+}
+
+.rbt-input-hint {
+  opacity: 0;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: darkgray;
+}
+
+.uppercase {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+  padding-left: 0;
+}
+
+.left {
+  text-align: left;
+  padding-right: 0;
+}
+
+section {
+  padding: 50px 20px;
+  margin-bottom: 40px;
+  background-color: rgba(255, 255, 255, 0.82);
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+img:last-child {
+  margin-bottom: 0;
+}
+
+h1,
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+h1 {
+  font-size: 32px;
+  letter-spacing: 4px;
+  margin: 20px auto 45px auto;
+}
+
+h2 {
+  padding-bottom: 5px;
+  border-bottom: 1px solid black;
+  margin: 0 20px 25px 20px;
+  font-size: 24px;
+}
+
+h3 {
+  letter-spacing: 1px;
+  font-size: 18px !important;
+  line-height: 26px;
+}
+
+h4 {
+  font-size: 16px !important;
+}
+
+h3,
+p {
+  margin: 0;
+}
+
+td {
+  padding: 0 5px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.menu-section {
+  margin-bottom: 25px;
+}
+
+.menu-subsection {
+  margin-bottom: 20px;
+}
+
+.menu-subsection:last-child {
+  margin-bottom: 0;
+}
+
+.menu-heading {
+  margin-bottom: 20px;
+}
+
+.menu-subheading {
+  margin-bottom: 0px;
+}
+
+.menu-text {
+  font-family: "Tex Gyre Adventor Italic";
+  font-size: 14px;
+}
+
+@media only screen and (min-width: 640px) {
+  body {
+    padding: 90px 15px 30px 15px;
+  }
+  section {
+    width: 75%;
+    margin: 0 auto 40px auto;
+    padding: 55px 50px;
+  }
+
+  td {
+    padding: 0 10px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  p,
+  ul,
+  input,
+  .dropdown-item span {
+    font-size: 14px !important;
+  }
+
+  p,
+  li {
+    line-height: 22px !important;
+  }
+
+  uppercase {
+    font-size: 16px !important;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  section {
+    width: 45%;
+    padding: 80px 65px;
+  }
+
+  h2 {
+    margin: 0 40px 25px 40px;
+  }
+}
